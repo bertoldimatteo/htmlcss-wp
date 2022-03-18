@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    color: #878787;
 }
 
 /* general */
@@ -13,6 +11,8 @@
 body {
     max-width: 1440px;
     margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #878787;
 }
 
 nav {
@@ -38,4 +38,16 @@ nav ul li {
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;
+}
+
+.first-section .text{
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 385px;
+    width: 57%;
+}
+
+.text h2 {
+    font-size: 37px;
+    font-weight: 500;
 }
