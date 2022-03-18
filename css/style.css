@@ -9,21 +9,19 @@
 }
 
 /* general */
+
 body {
     max-width: 1440px;
     margin: auto;
 }
 
-nav li {
-    display: inline;
+nav {
+    margin: 35px 0;
 }
 
 nav ul li {
+    display: inline;
     margin-right: 25px;
-}
-
-nav {
-    margin: 30px 0;
 }
 
 /* specific class */
@@ -32,4 +30,12 @@ nav {
     display: inline-block;
     height: 80px;
     min-height: 70px;
+}
+
+.first-section {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
 }
