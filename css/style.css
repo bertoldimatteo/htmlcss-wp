@@ -7,14 +7,6 @@
 }
 
 /* general */
-
-body {
-    max-width: 1440px;
-    margin: auto;
-    font-family: 'Montserrat', sans-serif;
-    color: #878787;
-}
-
 nav {
     margin: 35px 0;
 }
@@ -24,7 +16,20 @@ nav ul li {
     margin-right: 25px;
 }
 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /* specific class */
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #878787;
+}
 
 .logo {
     display: inline-block;
@@ -59,4 +64,34 @@ nav ul li {
 .first-section .text h2 {
     font-size: 37px;
     font-weight: 500;
+}
+
+.second-section {
+    margin: 30px 0;
+}
+
+.main-claim {
+    font-size: 30px;
+    color: #000;
+    font-weight: 800;
+    margin-bottom: 3px;
+}
+
+.clearfix {
+    margin-top: 30px;
+}
+
+.col-left, .col-right {
+    width: 20%;
+    min-height: 600px;
+    background-color: aqua;
+    float: left;
+}
+
+.col-middle {
+    width: calc(60% - 40px);
+    min-height: 600px;
+    background-color: tan;
+    margin: 0 20px;
+    float: left;
 }
