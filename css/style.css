@@ -6,3 +6,14 @@
     box-sizing: border-box;
 }
 
+/* general */
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    height: 80px;
+    min-height: 70px;
+}
